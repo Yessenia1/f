@@ -1,5 +1,5 @@
 server:
-  port: 8084
+  port: 9084
 springdoc:
   api-docs:
     enabled: true
@@ -21,6 +21,6 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8090/eureka
+      defaultZone: http://localhost:9090/eureka
   instance:
     hostname: localhost
